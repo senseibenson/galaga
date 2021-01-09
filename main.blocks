@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="X3napBJ9NhDgolh/^4H#">ship</variable><variable type="KIND_SpriteKind" id="N#h0}?0ohMhTuXPw%@SF">Player</variable><variable type="KIND_SpriteKind" id="xD}75M1$2a2apF?HyGMY">Projectile</variable><variable type="KIND_SpriteKind" id="7v}S#W/r0VLhVr|R$.Yu">Food</variable><variable type="KIND_SpriteKind" id="GEfUh1M6*1bI)xe,_dQ,">Enemy</variable></variables><block type="pxt-on-start" id="O|Y,ibb1@_|9wJvLpfoX" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="p2L~E7#G?IaxbacOd#IN"><field name="VAR" id="X3napBJ9NhDgolh/^4H#">ship</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="ch:h-QOu@2PWqNXwTOP_"><value name="img"><shadow type="screen_image_picker" id="j%aDw+yt0F=y4Kq@/zmz"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . f f . . . . . . . . . . 
+. . . . f f . . . . . . . . . . 
+. . . . f f . . . . . . . . . . 
+. . . 2 2 2 2 2 2 . . . . . . . 
+. . . 2 f f f f 2 2 2 . . . . . 
+. . . 2 2 2 2 2 2 2 2 . . . . . 
+. . . 2 f f f f f f 2 . . . . . 
+. . . 2 2 2 2 2 2 2 2 2 2 2 . . 
+. . 2 2 1 1 1 1 1 1 1 1 1 2 . . 
+. . 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. . 2 2 2 2 2 2 2 2 2 2 2 . . . 
+. . . 2 2 2 2 2 2 2 2 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="^a#.w%4o+,FK(=g=S5c?"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetsetflag" id="-qa:5-;Zz9fc8]mLo2Hp"><field name="flag">SpriteFlag.StayInScreen</field><value name="sprite"><block type="variables_get" id="godj)PD6nd0=Gx9s,z-V"><field name="VAR" id="X3napBJ9NhDgolh/^4H#">ship</field></block></value><value name="on"><shadow type="toggleOnOff" id="!~Y/bT{^]c1Mp?xKmVt;"><field name="on">true</field></shadow></value><next><block type="game_control_sprite" id="{,?NYIEH{Z!?EmqU!$QW"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><shadow type="variables_get" id="Y5-4{7E@?X1nNPL^ae6r"><field name="VAR" id="X3napBJ9NhDgolh/^4H#">ship</field></shadow></value><value name="vx"><shadow type="math_number" id="W.Dum*j!50q#4ywwXbik"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="bskhmHR3u]l^_O)jP()q"><field name="NUM">100</field></shadow></value></block></next></block></next></block></statement></block></xml>
